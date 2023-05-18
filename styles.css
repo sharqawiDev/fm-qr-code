@@ -1,0 +1,77 @@
+/* initial styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* add Outfit font */
+@font-face {
+    font-family: 'Outfit';
+    src: url('../fonts/Outfit.ttf');
+}
+
+
+body {
+    height: 98vh;
+    background-color: #D5E1EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-card {
+    width: 320px;
+    height: 497px;
+    padding: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-card * {
+    margin: 16px 16px;
+}
+
+.qr-card .qr-code-image {
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.qr-card h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.qr-card p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: grey;
+}
+
+.attribution {
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: grey;
+    position: fixed;
+    bottom: 5px;
+}
+
+.attribution a {
+    text-decoration: none;
+}
